@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle menang-slot-online",
+        "command": "menang-slot-online:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "menang-slot-online",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "menang-slot-online:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
